@@ -1,0 +1,72 @@
+body {
+  background-color: #232a3d !important;
+}
+
+#time-area {
+  width: 300px;
+  height: 250px;
+  border-radius: 15%;
+  border: 15px double #e15f41;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  color: #fff;
+}
+
+#header-area {
+  margin-top: 2%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+ul li.checked {
+  background-color: #e15f41;
+  color: #fff;
+  text-decoration: line-through;
+}
+.close {
+  cursor: -webkit-grab;
+  cursor: grab;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 8px 12px 8px 12px;
+}
+#deleteAll {
+  position: absolute;
+  right: 10px;
+  background-color: #e15f41 !important;
+  color: #fff;
+}
+#selectAll {
+  background-color: #e15f41 !important;
+  color: #fff;
+}
+#input1 {
+  background-color: #303952 !important;
+}
+#buton1 {
+  background-color: #303952 !important;
+}
+#myList {
+  background-color: #303952 !important;
+}
+#btnCreate {
+  background-color: #e15f41 !important;
+  color: #fff;
+  margin-left: 5px;
+}
+#stopBtn {
+  background-color: #e15f41 !important;
+  color: #fff;
+}
+#startBtn {
+  background-color: #e15f41 !important;
+  color: #fff;
+}
+.list-group-item {
+  background-color: #303952 !important;
+  color: #fff !important;
+}
